@@ -181,12 +181,23 @@
 
 
 @keyframes incomingAnim{
-    from{
+    /* from{
         opacity: 0;
         transform: translateX(-200px);
     }
     to{
         opacity: 1;
+        transform: none;
+    } */
+    0%{
+        opacity:0;
+        transform: translateX(-200px);
+    }
+    40%{
+        opacity: 1;
+        transform :translateX(40px);
+    }
+    100%{
         transform: none;
     }
 }
@@ -196,12 +207,23 @@
 }
 
 @keyframes sentAnimation{
-    from{
+    /* from{
         opacity: 0;
         transform: translateX(200px);
     }
     to{
         opacity: 1;
+        transform: none;
+    } */
+    0%{
+        opacity:0;
+        transform: translateX(200px);
+    }
+    40%{
+        opacity: 1;
+        transform :translateX(-40px);
+    }
+    100%{
         transform: none;
     }
 }
